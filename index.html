@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js"></script>
+    <title>Calculador de Faltas</title>
+</head>
+<body>
+    <main class="geral">
+    <h1>Calculadora de Reprovação por Falta</h1>
+    <div class="Campos">
+        <div class="hora">
+	        <label for="cargaHoraria">Carga Horária:</label>
+            <input class="campo" type="number" id="cargaHoraria" placeholder="Digite a carga horária">
+        </div>
+        <div class="faltas">
+	        <label for="faltas">Quantidade de Faltas:</label>
+            <input class="campo" type="number" id="faltas" placeholder="Digite a quantidade de faltas">
+        </div>
+    </div>
+    <div class="botao">
+	    <button onclick="calcularFalta()">Calcular</button>
+    </div>
+	<h2>Resultado:</h2>
+    <p class="resultado" id="resultado"></p>
+    <p class="resultado1" id="resultado1"></p>
+    <div class="gif">
+        <img src="https://thumbs.gfycat.com/ApprehensiveRecentAmoeba-max-1mb.gif">
+    </div>
+    </main>
+</body>
+</html>
